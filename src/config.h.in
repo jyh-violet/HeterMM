@@ -1,0 +1,9 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+#define value_size @value_size@
+#define PageSizeBits @PageSizeBits@
+#define BlockSizeBits @BlockSizeBits@
+#define dram_size @dram_size@
+#define persistT @persistT@
+
+#endif

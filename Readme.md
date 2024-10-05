@@ -33,15 +33,15 @@ cmake -Dvalue_size=8 -DindexType=test_lfht
 config.cfg: which will be read by the program automatically and should be in the same path as the executable file. The following is an example.
 ```
 # recordcount in YCSB config file
-LOAD_SIZE = 50000000
+LOAD_SIZE = 200000000
 
 # operationcount in YCSB config file
 TXN_SIZE = 100000000
 
 # path of the data files generated in the former step
-LOAD_FILE = "memcached_client/workloads/data/loadc_zipf_int_50M.dat" 
+LOAD_FILE = "memcached_client/workloads/data/loadc_zipf_int_200M.dat" 
 
-TXN_FILE = "memcached_client/workloads/data/txnsc_zipf_int_50M.dat"
+TXN_FILE = "memcached_client/workloads/data/txnsc_zipf_int_200M.dat"
 
 threadNum= 32
 ```

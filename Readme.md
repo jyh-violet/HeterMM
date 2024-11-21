@@ -56,15 +56,20 @@ result can be found in ./log file
 # Relative Publication
 ```
 @article{DBLP:journals/fcsc/JiHZ24,
-  author       = {***},
-  title        = {***},
+  author       = {Yunhong Ji and
+                  Wentao Huang and
+                  Xuan Zhou},
+  title        = {HeterMM: applying in-DRAM index to heterogeneous memory-based key-value
+                  stores},
   journal      = {Frontiers Comput. Sci.},
   volume       = {18},
   number       = {4},
   pages        = {184612},
   year         = {2024},
-  url          = {***},
-  doi          = {***},
-  timestamp    = {Mon, 29 Apr 2024 17:22:48 +0200},
+  url          = {https://doi.org/10.1007/s11704-024-3713-0},
+  doi          = {10.1007/S11704-024-3713-0},
+  timestamp    = {Sun, 06 Oct 2024 21:27:53 +0200},
+  biburl       = {https://dblp.org/rec/journals/fcsc/JiHZ24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
